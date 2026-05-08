@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Acessa Paraguaçu</title>
+  <desc id="desc">Logo vetorial com as letras AP, gradiente vermelho, amarelo e verde, e o nome Acessa Paraguaçu.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="44%" r="70%">
+      <stop offset="0%" stop-color="#17231C"/>
+      <stop offset="45%" stop-color="#08110F"/>
+      <stop offset="100%" stop-color="#02050A"/>
+    </radialGradient>
+    <linearGradient id="brand" x1="82" y1="78" x2="430" y2="435" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EF4444"/>
+      <stop offset="0.48" stop-color="#FDE047"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F87171"/>
+      <stop offset="0.52" stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#4ADE80"/>
+    </linearGradient>
+    <filter id="softShadow" x="-40" y="-40" width="592" height="592" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="22" flood-color="#FACC15" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bgGlow)"/>
+  <rect x="27" y="27" width="458" height="458" rx="96" stroke="url(#stroke)" stroke-width="10" opacity="0.96"/>
+  <rect x="49" y="49" width="414" height="414" rx="78" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <g filter="url(#softShadow)">
+    <path d="M113 337L191 161H233L311 337H257L245 306H178L166 337H113ZM193 264H230L212 216L193 264Z" fill="url(#brand)"/>
+    <path d="M322 337V161H390C430 161 456 187 456 224C456 261 430 286 390 286H373V337H322ZM373 240H386C397 240 405 233 405 224C405 214 397 207 386 207H373V240Z" fill="#F8FAFC"/>
+  </g>
+  <path d="M92 382H420" stroke="url(#brand)" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+  <text x="256" y="421" text-anchor="middle" font-family="Inter, Sora, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1.2" fill="#F8FAFC">ACESSA</text>
+  <text x="256" y="452" text-anchor="middle" font-family="Inter, Sora, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0.4" fill="#D1D5DB">Paraguaçu</text>
+</svg>
