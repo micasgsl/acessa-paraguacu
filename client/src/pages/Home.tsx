@@ -36,7 +36,7 @@ import type { LucideIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import { toast } from "sonner";
 
-const logoUrl = `${import.meta.env.BASE_URL}acessa-logo.svg`;
+const logoUrl = `${import.meta.env.BASE_URL}acessa-logo-whatsapp.jpeg`;
 
 type Category = "Todos" | "Alimentação" | "Energia" | "Serviços" | "Tecnologia" | "Beleza" | "Moda";
 
